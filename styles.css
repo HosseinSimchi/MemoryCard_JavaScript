@@ -13,23 +13,28 @@ body{
   min-height: 100vh;
   background: #6563FF;
 }
+
+
 .wrapper{
   padding: 25px;
   border-radius: 10px;
   background: #F8F8F8;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
-.cards, .card, .view{
+.cards, .card{
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 30px;
 }
+
 .cards{
   height: 500px;
   width: 500px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .cards .card{
   cursor: pointer;
   list-style: none;
@@ -111,4 +116,19 @@ body{
   .card .back-view img{
     max-width: 35px;
   }
+}
+h3{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  margin-top: -9px;
+}
+
+#Result {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  right: 20%;
+  margin-top: -9px;
 }
